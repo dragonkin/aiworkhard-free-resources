@@ -1,12 +1,10 @@
-<p align="center">
-<img src="assets/banner.png" width="820" alt="AI很忙 — 免费资源日报"/>
-</p>
+<p align="center"><img src="assets/banner.png" width="820" alt="AI很忙 · 免费资源日报"/></p>
 
-<h1 align="center">AI很忙 · 全免费 AI / 服务器 / API 资源精选</h1>
+# AI很忙 · 全免费 AI / 服务器 / API 资源精选
+
 <p align="center">每天核实一条免费资源——免费 AI 模型 · 免费服务器 · 免费 API · 免费云算力 · 开源工具 · 低价优惠</p>
-<p align="center">
+
 ![license](https://img.shields.io/badge/license-CC0--1.0-blue) ![count](https://img.shields.io/badge/收录-160+-blueviolet) ![updated](https://img.shields.io/badge/更新-2026-11-25-brightgreen) ![website](https://img.shields.io/badge/网站-www.aiworkhard.com-0B8CAD)
-</p>
 
 > 每条资源都附 **免费额度 / 官方地址 / 操作步骤 / 坑点**，并带 `已核实` `免卡` `有风险` 状态标签，每日持续更新验证。
 > 主站：**[AI很忙](https://www.aiworkhard.com/)** · 收录合计 **160** 条
