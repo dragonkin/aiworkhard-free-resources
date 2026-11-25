@@ -1,5 +1,7 @@
 <p align="center"><img src="assets/banner.png" width="820" alt="AI很忙 · 免费资源日报"/></p>
 
+**[中文](README.md) · [English](README.en.md)**
+
 # AI很忙 · 全免费 AI / 服务器 / API 资源精选
 
 <p align="center">每天核实一条免费资源——免费 AI 模型 · 免费服务器 · 免费 API · 免费云算力 · 开源工具 · 低价优惠</p>
