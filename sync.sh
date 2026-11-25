@@ -30,15 +30,18 @@ echo "[3/3] 推送 GitHub ..."
 git push origin master
 
 # ---- 同步三个分类子仓库 ----
-CATS="servers:server:免费服务器大全:永久免费云服务器/VPS精选 ai:ai:免费AI/API大全:免费AI模型/API精选 tools:tool:免费工具大全:免费开源工具精选"
+CATS="servers:server:免费服务器大全:永久免费云服务器/VPS精选:Free Servers / VPS:Free / permanent VPS hosting picks ai:ai:免费AI/API大全:免费AI模型/API精选:Free AI / API:Free AI models & APIs tools:tool:免费工具大全:免费开源工具精选:Free Tools:Free open-source tools"
 for item in $CATS; do
-  IFS=':' read -r sub cat name tag <<<"$item"
+  IFS=':' read -r sub cat name tag name_en tag_en <<<"$item"
   FILE="$REPO_DIR/../aiworkhard-free-$sub"
   [ -d "$FILE" ] || continue
   echo "── 同步 $sub ..."
   scp -i "$SSH_KEY" -o StrictHostKeyChecking=no "$REPO_DIR/tools/gen_cat_readme.py" "$VPS:/tmp/gen_cat_run.py" >/dev/null
   ssh -i "$SSH_KEY" -o StrictHostKeyChecking=no -o ConnectTimeout=20 "$VPS" \
     "sudo chown ubuntu:ubuntu /tmp/gen_cat_run.py && sudo -u ubuntu python3 /tmp/gen_cat_run.py $cat '$name' '$tag'" > "$FILE/README.md"
+  scp -i "$SSH_KEY" -o StrictHostKeyChecking=no "$REPO_DIR/tools/gen_cat_readme_en.py" "$VPS:/tmp/gen_cat_run_en.py" >/dev/null
+  ssh -i "$SSH_KEY" -o StrictHostKeyChecking=no -o ConnectTimeout=20 "$VPS" \
+    "sudo chown ubuntu:ubuntu /tmp/gen_cat_run_en.py && sudo -u ubuntu python3 /tmp/gen_cat_run_en.py $cat '$name_en' '$tag_en'" > "$FILE/README.en.md"
   ( cd "$FILE" \
     && git add -A \
     && git diff --cached --quiet \

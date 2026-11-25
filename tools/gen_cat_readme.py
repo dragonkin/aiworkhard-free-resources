@@ -22,6 +22,8 @@ def main():
     total = len(rows)
     out = []
     out.append('# %s\n' % repo_name)
+    out.append('<p align="center">**[中文](README.md) · [English](README.en.md)**</p>')
+    out.append('')
     out.append('> %s · 资料整理自 **AI很忙**。' % tagline)
     out.append('> 完整清单（全部分类）见主仓库：[aiworkhard-free-resources](%s)' % MAIN)
     out.append('> 主站：**[AI很忙](%s/)** · 本仓收录 **%d** 条\n' % (BASE, total))
