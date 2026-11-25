@@ -1,5 +1,5 @@
 <p align="center">
-<img src="assets/banner.jpg" width="820" alt="AI很忙 — 免费资源日报"/>
+<img src="assets/banner.png" width="820" alt="AI很忙 — 免费资源日报"/>
 </p>
 
 <h1 align="center">AI很忙 · 全免费 AI / 服务器 / API 资源精选</h1>
