@@ -6,12 +6,14 @@
 
 <p align="center">每天核实一条免费资源——免费 AI 模型 · 免费服务器 · 免费 API · 免费云算力 · 开源工具 · 低价优惠</p>
 
-![license](https://img.shields.io/badge/license-CC0--1.0-blue) ![count](https://img.shields.io/badge/收录-160+-blueviolet) ![updated](https://img.shields.io/badge/更新-2026-11-25-brightgreen) ![website](https://img.shields.io/badge/网站-www.aiworkhard.com-0B8CAD)
+![license](https://img.shields.io/badge/license-CC0--1.0-blue) ![count](https://img.shields.io/badge/收录-162+-blueviolet) ![updated](https://img.shields.io/badge/更新-2026-11-25-brightgreen) ![website](https://img.shields.io/badge/网站-www.aiworkhard.com-0B8CAD)
 
 > 每条资源都附 **免费额度 / 官方地址 / 操作步骤 / 坑点**，并带 `已核实` `免卡` `有风险` 状态标签，每日持续更新验证。
-> 主站：**[AI很忙](https://www.aiworkhard.com/)** · 收录合计 **160** 条
+> 主站：**[AI很忙](https://www.aiworkhard.com/)** · 收录合计 **162** 条
 
 ## 🔥 最新精选
+- **[开源直播数字人盘点：LiveTalking / OpenTalking / MuseTalk / Open-LLM-VTuber / Linly-Talker（免费开播）](https://www.aiworkhard.com/a/163)** [已核实 · 开源免费] — 盘点能直接拿来免费开播的开源直播数字人方案（按成熟度排序）：首选 LiveTalking（实时流式数字人，四模型+WebRTC/RTMP 推…
+- **[ASC Computer Solutions 加拿大免费 VPS：1核512M/16GB/IPv6·每30天免费续 · 现售罄等补货](https://www.aiworkhard.com/a/162)** [已核实 · 售罄（等补货）] — 加拿大 ASC Computer Solutions（ASCS，阿尔伯塔 Onoway，自建硬件）的免费档容器：1核/512MB/16GB …
 - **[Mistral Vibe Pro 欧洲促销：兑码 MISTRALVIBE 免费 1 个月（原价 $14.99/月）](https://www.aiworkhard.com/a/161)** [已核实 · 欧洲限定] — Mistral AI 官方的 AI 助手与编程工具 Vibe（原 Le Chat，2026 年更名），含聊天、联网搜索和编程助手（命令行、桌…
 - **[google-colab-cli：Google 官方 Colab 命令行工具（免费档当远程算力用有封停风险）](https://www.aiworkhard.com/a/160)** [已核实 · 免费档用法有封停风险] — Google 官方出的 Colab 命令行工具：从本机终端申请 Colab 运行时、执行本地脚本、管理文件，不用一直开着笔记本网页。
 - **[Claude Brain：给 Claude Code 加持久记忆，单文件存记忆、能进 Git](https://www.aiworkhard.com/a/159)** [已核实 · 永久免费] — Claude Code 的持久记忆插件：会话上下文、决策、踩过的 Bug 自动捕获存档，新会话开始时自动注入；可搜索、可提问（/mind 命…
@@ -20,15 +22,13 @@
 - **[Craft Anything：开源逆向复刻引擎，320 个工具、4.1 万星（增速异常需留意）](https://www.aiworkhard.com/a/156)** [已核实 · 早期 alpha] — 纯 Rust 写的洁净室逆向/复刻引擎：研究网站、应用、游戏后，让编码 Agent 生成自己的版本并自动比对迭代。每个工具同时是 CLI 子…
 - **[freebie-radar：开源免费资源聚合，111 个数据源、AI 筛选、Telegram 推送](https://www.aiworkhard.com/a/155)** [已核实 · 开源免费] — 免费资源信息聚合器：覆盖 LINUX DO、NodeSeek、V2EX、Epic、Steam、GamerPower、Reddit、Blues…
 - **[LibreGet：开源免费下载器，1800+ 网站可下，无广告不用注册](https://www.aiworkhard.com/a/154)** [已核实 · 永久免费] — 桌面下载工具：原生提取器支持 YouTube、抖音、B站、X、Instagram、TikTok、Telegram 等，其余站点经内置 yt-…
-- **[OpenReel Video：开源免费剪辑器，浏览器本地跑、无水印、支持 4K](https://www.aiworkhard.com/a/153)** [已核实 · 永久免费] — 开源视频编辑器，100% 在浏览器客户端本地运行，视频不上传云端，不用安装软件。多轨时间线（视频/音频/图片/文本轨道不限量），用 WebG…
-- **[Amazon Quick 有免费档：0 美元/用户/月，桌面 AI 助手免费用（模型说法别全信）](https://www.aiworkhard.com/a/152)** [已核实 · 免费档（模型说法未证实）] — 亚马逊的办公 AI 助手：聊天、深度研究、生成文档/表格/演示/应用、自动化流程，还能连接 Slack、邮箱等办公工具。官方产品页确认有免费…
 
 ## 📂 目录
 | 分类 | 数量 |
 |---|--|
 | [免费 AI / API](#免费-ai-api) | 46 |
-| [免费工具](#免费工具) | 29 |
-| [免费服务器](#免费服务器) | 25 |
+| [免费工具](#免费工具) | 30 |
+| [免费服务器](#免费服务器) | 26 |
 | [免费 GPU / 算力](#免费-gpu-算力) | 6 |
 | [免费聊天 / 编程](#免费聊天-编程) | 11 |
 | [免费数据库](#免费数据库) | 10 |
@@ -90,6 +90,7 @@
 
 ## 免费工具
 
+- **[开源直播数字人盘点：LiveTalking / OpenTalking / MuseTalk / Open-LLM-VTuber / Linly-Talker（免费开播）](https://www.aiworkhard.com/a/163)** `已核实 · 开源免费` — 盘点能直接拿来免费开播的开源直播数字人方案（按成熟度排序）：首选 LiveTalking（实时流式数字人，四模型+WebRTC/RTMP 推流，带 24h 无人直播方案）；要长期做…
 - **[Claude Brain：给 Claude Code 加持久记忆，单文件存记忆、能进 Git](https://www.aiworkhard.com/a/159)** `已核实 · 永久免费` — Claude Code 的持久记忆插件：会话上下文、决策、踩过的 Bug 自动捕获存档，新会话开始时自动注入；可搜索、可提问（/mind 命令或可选的命令行工具）。
 - **[desigma：开源本地设计软件，免费离线，能直接打开 Figma 的 .fig 文件](https://www.aiworkhard.com/a/158)** `已核实 · 永久免费` — 纯 Rust 的本地优先设计工具：免费、离线、无账号，可直接导入 Figma 的 JSON 或本地 .fig 文件，保留组件、实例覆盖、样式与原型链接。
 - **[Mimi：开源实时翻译字幕工具，系统声音转悬浮字幕，中英双语](https://www.aiworkhard.com/a/157)** `已核实 · 永久免费` — Tauri/Rust 桌面应用：把电脑播放的声音或麦克风声音实时转成悬浮翻译字幕，双语、仅译文、仅原文三种显示，字幕可点击穿透不挡操作。
@@ -123,6 +124,7 @@
 
 ## 免费服务器
 
+- **[ASC Computer Solutions 加拿大免费 VPS：1核512M/16GB/IPv6·每30天免费续 · 现售罄等补货](https://www.aiworkhard.com/a/162)** `已核实 · 售罄（等补货）` — 加拿大 ASC Computer Solutions（ASCS，阿尔伯塔 Onoway，自建硬件）的免费档容器：1核/512MB/16GB SSD/公网 IPv6。每 30 天一周…
 - **[腾讯 LightVela 新用户免费体验 1 个月：2核8G 云端 Agent，送 4500 AI 积分](https://www.aiworkhard.com/a/151)** `已核实 · 限时免费` — 腾讯轻量云出的云端 Agent 托管服务：把 AI Agent 放在云上 7×24 小时跑，可接入微信、QQ、企业微信、飞书、钉钉。新用户首单免费体验 1 个月。
 - **[DataOnline 越南免费主机：1GB 套餐 0 元，长期免费但要续期](https://www.aiworkhard.com/a/144)** `已核实 · 需定期续期` — 越南主机商 DataOnline 的 Free Hosting 1GB：1GB NVMe 磁盘、每月 20GB 流量、2 个域名、2 个数据库，0 元，DirectAdmin 面板…
 - **[Nodaroo 免费面板实测：免卡给一台德国容器，没 root 也能跑常驻服务](https://www.aiworkhard.com/a/142)** `已实测 · 客户端挑版本` — Nodaroo 是免费的游戏服务器面板（翼龙面板），Discord 登录注册，免费档把额度全给一台服务器：200% CPU、6GB 内存、50GB 磁盘，德国机房。它不是 VPS：…
