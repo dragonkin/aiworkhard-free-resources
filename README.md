@@ -6,7 +6,7 @@
 
 <p align="center">每天核实一条免费资源——免费 AI 模型 · 免费服务器 · 免费 API · 免费云算力 · 开源工具 · 低价优惠</p>
 
-![license](https://img.shields.io/badge/license-CC0--1.0-blue) ![count](https://img.shields.io/badge/收录-152+-blueviolet) ![updated](https://img.shields.io/badge/更新-2026-11-26-brightgreen) ![website](https://img.shields.io/badge/网站-www.aiworkhard.com-0B8CAD)
+![license](https://img.shields.io/badge/license-CC0--1.0-blue) ![count](https://img.shields.io/badge/收录-152+-blueviolet) ![updated](https://img.shields.io/badge/更新-2026-11-27-brightgreen) ![website](https://img.shields.io/badge/网站-www.aiworkhard.com-0B8CAD)
 
 > 每条资源都附 **免费额度 / 官方地址 / 操作步骤 / 坑点**，并带 `已核实` `免卡` `有风险` 状态标签，每日持续更新验证。
 > 主站：**[AI很忙](https://www.aiworkhard.com/)** · 收录合计 **152** 条
