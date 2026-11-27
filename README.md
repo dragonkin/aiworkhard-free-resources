@@ -6,12 +6,13 @@
 
 <p align="center">每天核实一条免费资源——免费 AI 模型 · 免费服务器 · 免费 API · 免费云算力 · 开源工具 · 低价优惠</p>
 
-![license](https://img.shields.io/badge/license-CC0--1.0-blue) ![count](https://img.shields.io/badge/收录-152+-blueviolet) ![updated](https://img.shields.io/badge/更新-2026-11-27-brightgreen) ![website](https://img.shields.io/badge/网站-www.aiworkhard.com-0B8CAD)
+![license](https://img.shields.io/badge/license-CC0--1.0-blue) ![count](https://img.shields.io/badge/收录-153+-blueviolet) ![updated](https://img.shields.io/badge/更新-2026-11-27-brightgreen) ![website](https://img.shields.io/badge/网站-www.aiworkhard.com-0B8CAD)
 
 > 每条资源都附 **免费额度 / 官方地址 / 操作步骤 / 坑点**，并带 `已核实` `免卡` `有风险` 状态标签，每日持续更新验证。
-> 主站：**[AI很忙](https://www.aiworkhard.com/)** · 收录合计 **152** 条
+> 主站：**[AI很忙](https://www.aiworkhard.com/)** · 收录合计 **153** 条
 
 ## 🔥 最新精选
+- **[Beacon.host · 免费部署网站 & Serverless（AI Agent 专属）：不限静态站/10GB/25 Workers/2万次 · 免卡（详细攻略）](https://www.aiworkhard.com/a/165)** [已核实 · 免卡] — 面向 AI 代理的免费托管：邮箱验证码注册（免卡）即解锁不限期、数量不限的静态站点、10GB 文件存储、25 个 Workers（每日 2 …
 - **[Cloudflare Email Sending 进免费套餐：Workers 免搭服务器直发邮件（Beta，仅已验邮箱）＋免费发信方案对比](https://www.aiworkhard.com/a/164)** [已核实 · 免费（Beta）] — Cloudflare 于 2026-11-24 把 Email Sending（Beta）纳入 Workers 免费计划：可通过 Worke…
 - **[开源直播数字人盘点：LiveTalking / OpenTalking / MuseTalk / Open-LLM-VTuber / Linly-Talker（免费开播）](https://www.aiworkhard.com/a/163)** [已核实 · 开源免费] — 盘点能直接拿来免费开播的开源直播数字人方案（按成熟度排序）：首选 LiveTalking（实时流式数字人，四模型+WebRTC/RTMP 推…
 - **[ASC Computer Solutions 加拿大免费 VPS：1核512M/16GB/IPv6·每30天免费续 · 现售罄等补货](https://www.aiworkhard.com/a/162)** [已核实 · 售罄（等补货）] — 加拿大 ASC Computer Solutions（ASCS，阿尔伯塔 Onoway，自建硬件）的免费档容器：1核/512MB/16GB …
@@ -21,14 +22,13 @@
 - **[讯飞星辰 Spark-X2.6 免费领 10 亿 Token：新老用户都能领，31 天有效](https://www.aiworkhard.com/a/147)** [已核实] — 科大讯飞星辰 MaaS 平台的活动：Spark-X2.6 模型免费额度开放领取，官网首页明确写了零门槛领取 10 亿 tokens。注意 1…
 - **[七牛云 Conatus 限时免费：实名后每天 1 亿 Token，只到 11 月 30 日](https://www.aiworkhard.com/a/146)** [已核实 · 限时至 11-30] — 七牛云 1024 程序员节活动：融合模型 Conatus（模型 ID qiniu/conatus-free）限时免费开放，聚合多个顶级模型的…
 - **[packet.ai Token Factory 限时免费：12 月 16 日前免费调用三个模型，不限量、免绑卡](https://www.aiworkhard.com/a/145)** [已核实 · 限时免费] — packet.ai 的 Token Factory 限时活动：免费期内三个模型的输入和输出 Token 全部免费，官方没有公布总量上限，活动…
-- **[DataOnline 越南免费主机：1GB 套餐 0 元，长期免费但要续期](https://www.aiworkhard.com/a/144)** [已核实 · 需定期续期] — 越南主机商 DataOnline 的 Free Hosting 1GB：1GB NVMe 磁盘、每月 20GB 流量、2 个域名、2 个数据…
 
 ## 📂 目录
 | 分类 | 数量 |
 |---|--|
 | [免费 AI / API](#免费-ai-api) | 46 |
 | [免费工具](#免费工具) | 23 |
-| [免费服务器](#免费服务器) | 25 |
+| [免费服务器](#免费服务器) | 26 |
 | [免费 GPU / 算力](#免费-gpu-算力) | 5 |
 | [免费聊天 / 编程](#免费聊天-编程) | 10 |
 | [免费数据库](#免费数据库) | 10 |
@@ -117,6 +117,7 @@
 
 ## 免费服务器
 
+- **[Beacon.host · 免费部署网站 & Serverless（AI Agent 专属）：不限静态站/10GB/25 Workers/2万次 · 免卡（详细攻略）](https://www.aiworkhard.com/a/165)** `已核实 · 免卡` — 面向 AI 代理的免费托管：邮箱验证码注册（免卡）即解锁不限期、数量不限的静态站点、10GB 文件存储、25 个 Workers（每日 2 万请求）、API/Webhook 与密码…
 - **[ASC Computer Solutions 加拿大免费 VPS：1核512M/16GB/IPv6·每30天免费续 · 现售罄等补货](https://www.aiworkhard.com/a/162)** `已核实 · 售罄（等补货）` — 加拿大 ASC Computer Solutions（ASCS，阿尔伯塔 Onoway，自建硬件）的免费档容器：1核/512MB/16GB SSD/公网 IPv6。每 30 天一周…
 - **[DataOnline 越南免费主机：1GB 套餐 0 元，长期免费但要续期](https://www.aiworkhard.com/a/144)** `已核实 · 需定期续期` — 越南主机商 DataOnline 的 Free Hosting 1GB：1GB NVMe 磁盘、每月 20GB 流量、2 个域名、2 个数据库，0 元，DirectAdmin 面板…
 - **[Nodaroo 免费面板实测：免卡给一台德国容器，没 root 也能跑常驻服务](https://www.aiworkhard.com/a/142)** `已实测 · 客户端挑版本` — Nodaroo 是免费的游戏服务器面板（翼龙面板），Discord 登录注册，免费档把额度全给一台服务器：200% CPU、6GB 内存、50GB 磁盘，德国机房。它不是 VPS：…
