@@ -2,6 +2,7 @@
 """生成某个分类子仓库的 README.md。用法: python3 gen_cat_readme.py <cat> <repo简称> <一句话>
    例: python3 gen_cat_readme.py server 免费服务器 '永久免费云服务器 / VPS 精选'"""
 import sqlite3, re, sys
+from datetime import datetime
 DB = '/opt/aiworkhard/data/app.db'
 BASE = 'https://www.aiworkhard.com'
 MAIN = 'https://github.com/dragonkin/aiworkhard-free-resources'
@@ -31,7 +32,7 @@ def main():
     for r in rows:
         st = (r['status'] or '').strip()
         out.append('- [%s](%s/a/%d) %s — %s' % (r['title'], BASE, r['number'],
-                                               ('`' + st + '`') if st else '', short(r['what'])))
+                                               ('`' + st + '`') if st else '', short(r['what']) + ' · ' + datetime.fromtimestamp(r['updated_at'] or r['created_at']).strftime('%m-%d')))
     out.append('\n> 说明：免费额度和可用性会变，领取步骤与坑点见原站详情页 %s/a/<编号>。' % BASE)
     print('\n'.join(out))
 

@@ -3,6 +3,7 @@
 用法: python3 gen_cat_readme_en.py <cat> <repo名EN> <sloganEN>
 例: python3 gen_cat_readme_en.py server free-servers 'Free Servers / VPS'"""
 import sqlite3, re, sys
+from datetime import datetime
 DB = '/opt/aiworkhard/data/app.db'
 BASE = 'https://www.aiworkhard.com'
 MAIN = 'https://github.com/dragonkin/aiworkhard-free-resources'
@@ -30,7 +31,7 @@ def main():
     for r in rows:
         st = (r['status'] or '').strip()
         out.append('- [%s](%s/a/%d) %s — %s' % (r['title'], BASE, r['number'],
-                                               ('`' + st + '`') if st else '', short(r['what'])))
+                                               ('`' + st + '`') if st else '', short(r['what']) + ' · ' + datetime.fromtimestamp(r['updated_at'] or r['created_at']).strftime('%m-%d')))
     out.append('')
     out.append('---')
     out.append('> Note: free quotas change; see the source page `%s/a/<id>` for steps & caveats.' % BASE)
