@@ -50,7 +50,7 @@ def main():
     for r in newest:
         st = (r['status'] or '').strip()
         out.append('- **[%s](%s/a/%d)** [%s] — %s' % (r['title'], BASE, r['number'],
-                                                      st if st else r['cat'], short(r['what'], 70)))
+                                                      st if st else r['cat'], short(r['what'], 70) + ' · ' + datetime.fromtimestamp(r['updated_at'] or r['created_at']).strftime('%m-%d')))
     out.append('')
 
     # 目录
@@ -71,7 +71,7 @@ def main():
         for r in items:
             st = (r['status'] or '').strip()
             out.append('- **[%s](%s/a/%d)** %s — %s' % (r['title'], BASE, r['number'],
-                                                       ('`' + st + '`') if st else '', short(r['what'])))
+                                                       ('`' + st + '`') if st else '', short(r['what']) + ' · ' + datetime.fromtimestamp(r['updated_at'] or r['created_at']).strftime('%m-%d')))
         out.append('')
 
     # 如何使用 / 说明

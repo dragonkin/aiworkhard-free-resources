@@ -39,7 +39,7 @@ def main():
     out.append('### Top 10 latest')
     for r in rows[:10]:
         st = (r['status'] or '').strip()
-        out.append('- [%s](%s/a/%d) [%s] — %s' % (r['title'], BASE, r['number'], st if st else r['cat'], short(r['what'], 70)))
+        out.append('- [%s](%s/a/%d) [%s] — %s' % (r['title'], BASE, r['number'], st if st else r['cat'], short(r['what'], 70) + ' · ' + datetime.fromtimestamp(r['updated_at'] or r['created_at']).strftime('%m-%d')))
     out.append('')
     out.append('### Index')
     for c in ORDER:
@@ -54,7 +54,7 @@ def main():
         for r in items:
             st = (r['status'] or '').strip()
             out.append('- [%s](%s/a/%d) %s — %s' % (r['title'], BASE, r['number'],
-                                                   ('`' + st + '`') if st else '', short(r['what'])))
+                                                   ('`' + st + '`') if st else '', short(r['what']) + ' · ' + datetime.fromtimestamp(r['updated_at'] or r['created_at']).strftime('%m-%d')))
         out.append('')
     out.append('---')
     out.append('Note: this is a curated list. Verify official current terms before use; entries tagged `risky` may expire or violate ToS.')
